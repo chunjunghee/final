@@ -19,7 +19,7 @@ function draw()
     push();
     translate(width*0.5, height*0.5);
     rotate(frameCount / 200.0);
-    image(img,5-img.width/2,5-img.height/2);
+    image(img,img.width/2,img.height/2);
     pop();
     
 
