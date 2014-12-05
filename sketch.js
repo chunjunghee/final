@@ -16,10 +16,11 @@ function draw()
 {
     background(bg);
 
-
-      rotate(frameCount / 200.0);
-      image(img,36-img.width/2,72-img.height/2);
-      pop();
+    push();
+    translate(width*560, height*516);
+    rotate(frameCount / 200.0);
+    image(img,36-img.width/2,72-img.height/2);
+    pop();
     
 
     }
