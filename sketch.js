@@ -59,5 +59,6 @@ function draw()
         image(img5,647,88+c*5);
         c= c-1;
         }
+    }
 
     }
