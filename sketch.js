@@ -4,6 +4,7 @@ var img2;
 var img3;
 var img4;
 var img5;
+
 var c;
 
 function setup()
@@ -61,4 +62,5 @@ function draw()
         }
     }
 
-    }
+
+}
