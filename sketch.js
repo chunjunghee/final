@@ -1,5 +1,5 @@
 var bg;
-var image;
+var img;
 
 function setup()
 {
