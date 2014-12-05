@@ -15,6 +15,12 @@ function setup()
 function draw()
 {
     background(bg);
-    image(img,36,72);
+
+      push();
+      translate(width*0.2, height*0.5);
+      rotate(frameCount / 200.0);
+      image(img,36,72);
+      pop();
+    
 
     }
