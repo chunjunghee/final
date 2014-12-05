@@ -4,7 +4,7 @@ var img;
 function setup()
 {
 
-    createCanvas(1140,1140);
+    createCanvas(1000,1000);
     bg = loadImage("bg.png");
     bg = loadImage("bg.png");
     img = loadImage("earth.png");
