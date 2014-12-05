@@ -1,9 +1,10 @@
 var bg;
+var image;
 
 function setup()
 {
 
-    createCanvas(800,800);
+    createCanvas(1140,1140);
     bg = loadImage("bg.png");
 
     }
@@ -12,5 +13,6 @@ function setup()
 function draw()
 {
     background(bg);
+    img = loadImage("earth.png");
 
     }
