@@ -16,9 +16,9 @@ function draw()
 {
     background(bg);
 
-      
+      push();
       rotate(frameCount / 200.0);
-      image(img,555,555);
+      image(img,0,0);
       pop();
     
 
