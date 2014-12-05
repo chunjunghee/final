@@ -13,6 +13,7 @@ function setup()
 function draw()
 {
     background(bg);
+    bg = loadImage("bg.png");
     img = loadImage("earth.png");
 
     }
