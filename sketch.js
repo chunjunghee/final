@@ -17,8 +17,9 @@ function draw()
     background(bg);
 
       push();
+      translate(width*0.2, height*0.5);
       rotate(frameCount / 200.0);
-      image(img,0,0);
+      image(img,36,72);
       pop();
     
 
