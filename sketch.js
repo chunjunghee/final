@@ -33,8 +33,8 @@ function draw()
     pop();
 
     push();
-    translate(width*0.6, height*0.5);
-    rotate(frameCount / 50.0);
+    translate(width*0.5, height*0.5);
+    rotate(frameCount / 300.0);
     image(img3,2-img3.width/2,2-img3.height/2);
     pop();
     
