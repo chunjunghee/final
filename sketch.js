@@ -36,15 +36,15 @@ function draw()
     image(img3,2-img3.width/2,2-img3.height/2);
     pop();
 
-/*
+
     //cloud2
     push();
     translate(width*0.5, height*0.5);
-    rotate(frameCount / 450.0);
+    rotate(frameCount / 400.0);
     image(img4,2-img4.width/2,2-img4.height/2);
     pop();
 
-*/
+
     //earth
     push();
     translate(width*0.5, height*0.5);
