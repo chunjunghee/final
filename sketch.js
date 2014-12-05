@@ -9,11 +9,10 @@ function setup()
 
     createCanvas(1111,1111);
     bg = loadImage("bg.png");
-    bg = loadImage("bg.png");
     img = loadImage("earth.png");
-    img2 = loadImage("plane.png");
     img3 = loadImage("cloud1.png");
     img4 = loadImage("cloud2.png");
+    img2 = loadImage("plane.png");
 
     }
 
