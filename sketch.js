@@ -3,9 +3,13 @@ var img;
 var img2;
 var img3;
 var img4;
+var img5;
+var c;
 
 function setup()
 {
+
+    c = 0;
 
     createCanvas(1111,1111);
     bg = loadImage("bg.png");
@@ -13,6 +17,7 @@ function setup()
     img3 = loadImage("cloud1.png");
     img4 = loadImage("cloud2.png");
     img2 = loadImage("plane.png");
+    img5 = loadImage("balloon.png");
 
     }
 
@@ -45,5 +50,14 @@ function draw()
     image(img4,2-img4.width/2,2-img4.height/2);
     pop();
     
+
+    if(f){
+    if(c < -17){
+        c=0;
+        f=false;
+    }else{
+        image(img5,647,88+c*5);
+        c= c-1;
+        }
 
     }
