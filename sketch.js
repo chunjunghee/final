@@ -61,6 +61,7 @@ function draw()
     pop();
 
 
+    //balloon
     if(f){
     if(c < -17){
         c=0;
@@ -73,3 +74,11 @@ function draw()
 
 
 }
+
+var f = false;
+    function mouseClicked(){
+        if (!f){
+            f=true;
+        }
+
+    }
