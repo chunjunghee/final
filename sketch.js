@@ -14,9 +14,9 @@ function setup()
 
     createCanvas(1111,1111);
     bg = loadImage("bg.png");
-    img = loadImage("earth.png");
     img3 = loadImage("cloud1.png");
     img4 = loadImage("cloud2.png");
+    img = loadImage("earth.png");
     img2 = loadImage("plane.png");
     img5 = loadImage("balloon.png");
 
