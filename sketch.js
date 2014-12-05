@@ -18,7 +18,7 @@ function draw()
 
       
       rotate(frameCount / 200.0);
-      image(img,36,72);
+      image(img,555,555);
       pop();
     
 
