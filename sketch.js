@@ -87,6 +87,7 @@ function draw()
         }
     }
 
+}
 
 function drawSnow(){
     var r=Math.random();
@@ -176,8 +177,6 @@ if(dir4>1700){
   dir4=-1700;
 }
 
-
-}
 
 var f = false;
     function mouseClicked(){
