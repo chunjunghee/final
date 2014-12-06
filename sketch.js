@@ -88,8 +88,8 @@ function draw()
         c= c-1;
         }
     }
-    
-    var x=50;
+
+    var x=30;
     drawSnow();
 }
 
