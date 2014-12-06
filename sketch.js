@@ -6,10 +6,12 @@ var img4;
 var img5;
 var img6;
 
+
 var dir1=1;
 var dir2=1000;
 var dir3=2000;
 var dir4=3000;
+
 
 var c;
 
@@ -87,7 +89,10 @@ function draw()
         }
     }
 
+
 }
+
+
 
 function drawSnow(){
     var r=Math.random();
@@ -177,7 +182,7 @@ if(dir4>1700){
   dir4=-1700;
 }
 
-
+}
 var f = false;
     function mouseClicked(){
         if (!f){
