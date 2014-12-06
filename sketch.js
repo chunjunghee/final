@@ -5,7 +5,7 @@ var img3;
 var img4;
 var img5;
 var img6;
-var img7;
+
 
 
 var dir1=1;
@@ -29,7 +29,7 @@ function setup()
     img4 = loadImage("cloud2.png");
     img5 = loadImage("balloon.png");
     img6 = loadImage("bus.png");
-    img7 = loadImage("car.png");
+   
 
     }
 
@@ -79,13 +79,6 @@ function draw()
     image(img6,270-img6.width/2,270-img6.height/2);
     pop();
 
-
-    //car
-    push();
-    translate(width*0.5, height*0.5);
-    rotate(frameCount / 200.0);
-    image(img7,270-img7.width/2,270-img7.height/2);
-    pop();
 
     //balloon
     if(f){
