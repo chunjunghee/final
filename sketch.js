@@ -74,10 +74,11 @@ function draw()
         }
     }
 
+    //bus
     push();
     translate(width*0.5, height*0.5);
-    rotate(frameCount / 400.0);
-    image(img6,290-img6.width/2,290-img6.height/2);
+    rotate(frameCount / 200.0);
+    image(img6,270-img6.width/2,270-img6.height/2);
     pop();
 
 
