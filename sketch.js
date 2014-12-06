@@ -4,6 +4,7 @@ var img2;
 var img3;
 var img4;
 var img5;
+var img6;
 
 var c;
 
@@ -19,6 +20,7 @@ function setup()
     img3 = loadImage("cloud1.png");
     img4 = loadImage("cloud2.png");
     img5 = loadImage("balloon.png");
+    img6 = loadImage("bus.png");
 
     }
 
@@ -67,7 +69,7 @@ function draw()
         c=0;
         f=false;
     }else{
-        image(img5,647,500+c*5);
+        image(img5,800,500+c*5);
         c= c-1;
         }
     }
