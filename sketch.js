@@ -28,6 +28,7 @@ function setup()
 function draw()
 {
     background(bg);
+    image(img6,261,278);
 
 
 
