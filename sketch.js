@@ -74,7 +74,7 @@ function draw()
         }
     }
 
-    image(img6,250,250);
+    image(img6,230,230);
 
 
 
