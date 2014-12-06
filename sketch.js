@@ -28,8 +28,7 @@ function setup()
 function draw()
 {
     background(bg);
-    image(img6,261,278);
-
+    
 
 
     //cloud1
@@ -74,6 +73,9 @@ function draw()
         c= c-1;
         }
     }
+
+    image(img6,261,278);
+
 
 
 }
