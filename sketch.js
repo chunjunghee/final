@@ -5,7 +5,7 @@ var img3;
 var img4;
 var img5;
 var img6;
-var img7;
+
 
 
 
@@ -30,7 +30,7 @@ function setup()
     img4 = loadImage("cloud2.png");
     img5 = loadImage("balloon.png");
     img6 = loadImage("bus.png");
-    img7 = loadImage("balloon2.png");
+    
 
     }
 
@@ -93,15 +93,6 @@ function draw()
     }
 
 
-    if(f){
-    if(c < -17){
-        c=0;
-        f=false;
-    }else{
-        image(img7,300,100+c*5);
-        c= c-1;
-        }
-    }
 
 
 
